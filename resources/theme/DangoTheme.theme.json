@@ -1,0 +1,84 @@
+{
+  "name": "DangoTheme",
+  "author": "NemoIsTeloru",
+  "dark": true,
+  "editorScheme": "/theme/dangoSchemat.xml",
+
+  "colors": {
+    "mintGreen": "#9cff8f",
+    "lightDarkMintGreen": "#7ccc72",
+    "darkMintGreen": "#5d9955",
+    "frenchPink": "#fb65a3",
+    "lightDarkfrenchPink": "#c75081",
+    "darkFrenchPink": "#622e4e",
+
+    "lightRichBlack": "#0c1d41",
+    "richBlack": "#050c1b",
+    "darkerRichBlack": "#020814",
+    "smallLightBlack": "#132e67",
+    "lightBlack": "#1a3f8d",
+    "cosmicLatte": "#fbf8e9",
+
+    "gg": "#ffffff1f",
+
+    "test": "#ffdb63"
+  },
+
+  "ui": {
+    "*": {
+      "background": "richBlack",
+      "foreground": "cosmicLatte",
+
+      "infoForeground": "frenchPink",
+      "successForeground": "test",
+
+      "selectionBackground": "darkFrenchPink",
+      "selectionForeground": "cosmicLatte",
+      "selectionInactiveBackground": "#42424f",
+      "selectionBackgroundInactive": "#42424F",
+
+      "disabledBackground": "lightRichBlack",
+      "inactiveBackground": "lightRichBlack",
+
+      "disabledForeground": "#E0861F",
+      "disabledText": "#E0861F",
+      "inactiveForeground": "#E0861F",
+
+      "acceleratorForeground": "#E6E6E6",
+      "acceleratorSelectionForeground": "#E6E6E6",
+
+      "errorForeground": "frenchPink",
+
+      "borderColor": "darkerRichBlack",
+      "disabledBorderColor": "#AA6E28",
+      "focusColor": "mintGreen",
+      "focusedBorderColor": "mintGreen",
+      "hoverBorderColor": "mintGreen",
+      "pressedBorderColor": "mintGreen",
+
+      "separatorColor": "#B3B3B3",
+      "lineSeparatorColor": "#6A6173"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "darkMintGreen",
+      "pressedBackground": "lightDarkMintGreen"
+    },
+
+    "Button": {
+      "startBackground": "#000000",
+      "endBackground": "#000000",
+      "startBorderColor": "#FFFFFF",
+      "endBorderColor": "#FFFFFF",
+
+      "default": {
+        "foreground": "richBlack",
+        "startBackground": "mintGreen",
+        "endBackground": "mintGreen",
+        "startBorderColor": "mintGreen",
+        "endBorderColor": "mintGreen",
+        "focusedBorderColor": "frenchPink"
+      }
+    }
+  }
+}
